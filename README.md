@@ -1,5 +1,6 @@
 # TableTokenCacheSample
-ASP.Net MVC Sample Project that uses Azure Table Storage as ADAL Token Cache
+ASP.Net MVC Sample Project that uses Azure Table Storage as ADAL Token Cache.
+
 More info on why and how: https://blog.jeroenmaes.eu/2016/12/using-azure-table-storage-as-adal-token-cache/
 
 ## Disclaimer
