@@ -18,7 +18,7 @@ namespace TableTokenCacheSample.Controllers
     [Authorize]
     public class UserProfileController : Controller
     {
-        //private ApplicationDbContext db = new ApplicationDbContext();
+        
         private string clientId = ConfigurationManager.AppSettings["ida:ClientId"];
         private string appKey = ConfigurationManager.AppSettings["ida:ClientSecret"];
         private string aadInstance = ConfigurationManager.AppSettings["ida:AADInstance"];

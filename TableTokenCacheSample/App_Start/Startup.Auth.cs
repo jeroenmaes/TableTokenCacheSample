@@ -30,8 +30,7 @@ namespace TableTokenCacheSample
 
         public void ConfigureAuth(IAppBuilder app)
         {
-            //ApplicationDbContext db = new ApplicationDbContext();
-
+            
             app.SetDefaultSignInAsAuthenticationType(CookieAuthenticationDefaults.AuthenticationType);
 
             app.UseCookieAuthentication(new CookieAuthenticationOptions());
